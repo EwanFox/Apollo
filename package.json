@@ -1,7 +1,10 @@
 {
-  "name": "apollo",
+  "name": "@bananasquares/apollo",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/BananaSquares"
+  },
   "version": "1.0.0",
-  "description": "short and swwet component library",
+  "description": "short and sweet component library",
   "scripts": {
     "rollup": "rollup -c"
   },
