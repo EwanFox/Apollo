@@ -1,0 +1,48 @@
+.light {
+    background: #EEF0F4;
+border-radius: 15px;
+box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.light:hover {
+    background: #EEF0F4;
+border-radius: 15px;
+box-shadow: inset 7px 7px 14px #d4d6d9, inset -7px -7px 14px #ffffff;
+background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.light {
+  background: #000000;
+border-radius: 15px;
+box-shadow: 9.91px 9.91px 15px #0A0908, -9.91px -9.91px 15px #22333B;
+background-color: white;
+color: black;
+font-size: 20px;
+padding: 10px 60px;
+border-radius: 5px;
+margin: 10px 0px;
+cursor: pointer;
+}
+.dark:hover {
+  background: #000000;
+border-radius: 15px;
+box-shadow: inset 7px 7px 14px #0A0908, inset -7px -7px 14px #22333B;
+background-color: black;
+color: black;
+font-size: 20px;
+padding: 10px 60px;
+border-radius: 5px;
+margin: 10px 0px;
+cursor: pointer;
+}

@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/BananaSquares"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "short and sweet component library",
   "scripts": {
     "rollup": "rollup -c"
@@ -26,6 +26,7 @@
     "react": "18.1.0",
     "rollup": "2.75.4",
     "rollup-plugin-dts": "4.2.2",
+    "rollup-plugin-postcss": "^4.0.2",
     "typescript": "4.7.2"
   },
   "main": "dist/cjs/index.js",

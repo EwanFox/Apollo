@@ -1,12 +1,12 @@
 import React from 'react';
-
+import './Button.css';
 export interface ButtonProps {
     onClick: () => void;
     width: number,
     name: string,
-    dark: boolean,
+    style: string,
 }
 const Button = (props: ButtonProps) => {
-    return <button style= {{width: props.width}} onClick={props.onClick}>{props.name}</button>
+    return <button style= {{width: props.width}} onClick={props.onClick} className={props.style}>{props.name}</button>
 }
 export default Button;
