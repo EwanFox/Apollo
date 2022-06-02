@@ -2,7 +2,7 @@
     background: #EEF0F4;
 border-radius: 15px;
 box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
-background-color: white;
+  background-color: white;
   color: black;
   font-size: 20px;
   padding: 10px 60px;
@@ -13,36 +13,37 @@ background-color: white;
 .light:hover {
     background: #EEF0F4;
 border-radius: 15px;
-box-shadow: inset 7px 7px 14px #d4d6d9, inset -7px -7px 14px #ffffff;
-background-color: white;
+box-shadow: inset 7px 7px 14px #d4d6d9, inset -7px -7px 14px #fff;
   color: black;
+  background-color: white;
   font-size: 20px;
   padding: 10px 60px;
   border-radius: 5px;
   margin: 10px 0px;
   cursor: pointer;
 }
-.light {
-  background: #000000;
+.dark {
+  background: #000;
 border-radius: 15px;
-box-shadow: 9.91px 9.91px 15px #0A0908, -9.91px -9.91px 15px #22333B;
-background-color: white;
-color: black;
+box-shadow: 9.91px 9.91px 15px #1e1f24, -9.91px -9.91px 15px #242121;
+color: white;
 font-size: 20px;
 padding: 10px 60px;
 border-radius: 5px;
 margin: 10px 0px;
 cursor: pointer;
+border-color: white;
 }
 .dark:hover {
   background: #000000;
 border-radius: 15px;
-box-shadow: inset 7px 7px 14px #0A0908, inset -7px -7px 14px #22333B;
-background-color: black;
-color: black;
+box-shadow: inset 7px 7px 14px #2f2f30, inset -7px -7px 14px #242121;
+color: white;
 font-size: 20px;
 padding: 10px 60px;
 border-radius: 5px;
 margin: 10px 0px;
 cursor: pointer;
+border-color: #FFFFFF;
 }
+
