@@ -1,16 +1,12 @@
 {
   "name": "@bananasquares/apollo",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/BananaSquares"
-  },
   "version": "1.0.2",
   "description": "short and sweet component library",
   "scripts": {
     "rollup": "rollup -c"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BananaSquares/Apollo.git"
+  "publishConfig": {
+    "access": "public"
   },
   "author": "Ewan Fox",
   "license": "MIT",
