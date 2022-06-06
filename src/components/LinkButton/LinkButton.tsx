@@ -7,6 +7,6 @@ export interface LinkButtonProps {
     style: string,
 }
 const Button = (props: LinkButtonProps) => {
-    return <button style= {{width: props.width}} className={props.style}><a href={props.link}>{props.name}</a></button>
+    return <button style= {{width: props.width}} className={props.style}><a href={props.link} onClick={() => {window.location.href = props.link}}>{props.name}</a></button>
 }
 export default Button;
