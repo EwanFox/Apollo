@@ -8,10 +8,6 @@ export default {
 } as ComponentMeta<typeof Button>;
 
 const Template: ComponentStory<typeof Button> = (args: JSX.IntrinsicAttributes & ButtonProps) =><Button {...args}/>
-export const HelloWorld = Template.bind({});
-HelloWorld.args = {
-    label: "Hello world!"
-}
 export const ClickMe = Template.bind({});
 ClickMe.args = {
     name: "Click me",
