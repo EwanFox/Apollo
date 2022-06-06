@@ -1,6 +1,6 @@
 {
   "name": "@bananasquares/apollo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "short and sweet component library",
   "scripts": {
     "rollup": "rollup -c",
