@@ -1,13 +1,13 @@
 import React from "react";
 import {ComponentStory, ComponentMeta} from '@storybook/react'
-import LinkButton, { ButtonProps } from "./LinkButton";
+import LinkButton, { LinkButtonProps } from "./LinkButton";
 
 export default {
     title: "Apollo/LinkButton",
     component: LinkButton,
 } as ComponentMeta<typeof LinkButton>;
 
-const Template: ComponentStory<typeof LinkButton> = (args: JSX.IntrinsicAttributes & ButtonProps) =><LinkButton {...args}/>
+const Template: ComponentStory<typeof LinkButton> = (args: JSX.IntrinsicAttributes & LinkButtonProps) =><LinkButton {...args}/>
 export const ClickMe = Template.bind({});
 ClickMe.args = {
     name: "Click me",
